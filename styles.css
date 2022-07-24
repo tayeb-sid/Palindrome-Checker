@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5eddc;
+}
+
+.container {
+  text-transform: capitalize;
+  padding: 20px 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 4rem;
+  font-family: 'Roboto';
+  background-color: #cfd2cf;
+}
+.title {
+  font-weight: bold;
+  font-family: 'Segoe Script';
+  color: #eb1d36;
+}
+.message {
+  height: 1rem;
+  padding-bottom: 20px;
+  font-size: 1.75rem;
+  color: black;
+}
+
+input,
+button {
+  font-size: 1.5rem;
+}
+input {
+  background-color: #cfd2cf;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  color: black;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: #eb1d36;
+}
+button:hover {
+  opacity: 0.7;
+  transition: 300ms ease;
+}
+button:active {
+  opacity: 0.3;
+}
+::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+#clear-btn {
+  background-color: black;
+}
+.input-field {
+  display: flex;
+  gap: 10px;
+}
